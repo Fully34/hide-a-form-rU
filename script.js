@@ -50,10 +50,13 @@ $(document).ready(function() {
     //     };
     // });
 
-//============================ Refresh In Place ============================//
+//========================== Default textarea text =========================//
+        
     var defaultText = $('.bio').text();
 
     $('.input-field').val(defaultText);
+
+//============================ Refresh In Place ============================//
 
 
     $('.input-field').on('keypress', function() {
