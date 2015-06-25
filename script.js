@@ -59,11 +59,10 @@ $(document).ready(function() {
 //============================ Refresh In Place ============================//
 
 
-    $('.input-field').on('keypress', function() {
+    $('.input-field').on('keyup', function() {
 
         var updateText = $(this).val();
 
         $('.bio').text(updateText);
-
     });
 });
