@@ -52,7 +52,13 @@ $(document).ready(function() {
 
 //============================ Refresh In Place ============================//
         
-    
+    $('.input-field').on('keypress', function() {
+
+        var updateText = $(this).val();
+
+        $('.bio').text(updateText);
+
+    });
 
 
 
