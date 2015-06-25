@@ -59,7 +59,7 @@ $(document).ready(function() {
 //============================ Refresh In Place ============================//
 
 
-    $('.input-field').on('keyup', function() {
+    $('.input-field').on('input', function() {
 
         var updateText = $(this).val();
 
