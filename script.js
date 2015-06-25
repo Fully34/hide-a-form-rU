@@ -51,7 +51,11 @@ $(document).ready(function() {
     // });
 
 //============================ Refresh In Place ============================//
-        
+    var defaultText = $('.bio').text();
+
+    $('.input-field').val(defaultText);
+
+
     $('.input-field').on('keypress', function() {
 
         var updateText = $(this).val();
