@@ -59,10 +59,4 @@ $(document).ready(function() {
         $('.bio').text(updateText);
 
     });
-
-
-
-
-
-
-})
+});
